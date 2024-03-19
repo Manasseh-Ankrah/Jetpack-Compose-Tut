@@ -13,9 +13,10 @@ class MainActivity : ComponentActivity() {
         super.onCreate(savedInstanceState)
         setContent {
             Column() {
-                Greeting("Android")
-                PrintName("Manasseh Manasseh Manasseh Manasseh Manasseh Manasseh Manasseh Manasseh Manasseh Manasseh Manasseh")
-                Spacer(modifier = Modifier.height(20.dp))
+                MainRowLayout()
+//                Greeting("Android")
+//                PrintName("Manasseh Manasseh Manasseh Manasseh Manasseh Manasseh Manasseh Manasseh Manasseh Manasseh Manasseh")
+//                Spacer(modifier = Modifier.height(20.dp))
             }
         }
     }
