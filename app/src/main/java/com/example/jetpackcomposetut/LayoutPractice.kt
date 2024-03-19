@@ -1,5 +1,6 @@
 package com.example.jetpackcomposetut
 
+import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
 import androidx.compose.material.Text
 import androidx.compose.runtime.Composable
@@ -8,11 +9,24 @@ import androidx.compose.ui.tooling.preview.Preview
 
 @Composable
 fun MainRowLayout() {
-  Row() {
-      RowLayout("Mandev")
-      RowLayout(" Nii")
-      RowLayout("Ankrah")
-  }
+ Column() {
+     Row() {
+         RowLayout("Mandev")
+         RowLayout(" Nii")
+         RowLayout("Ankrah")
+     }
+     Row() {
+         RowLayout("Mandev")
+         RowLayout(" Nii")
+         RowLayout("Ankrah")
+     }
+     Row() {
+         RowLayout("Mandev")
+         RowLayout(" Nii")
+         RowLayout("Ankrah")
+     }
+     
+ }
 
 }
 
